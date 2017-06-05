@@ -84,6 +84,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ButtonActions.cs" />
+    <Compile Include="Assets\PilzAnim.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
