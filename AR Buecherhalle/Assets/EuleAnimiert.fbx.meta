@@ -83,7 +83,539 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|KoerperDrehen
+      takeName: Armature|KoerperDrehen
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|kopfDrehenL
+      takeName: Armature|kopfDrehenL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|kopfDrehenR
+      takeName: Armature|kopfDrehenR
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|KopfLinksSchief
+      takeName: Armature|KopfLinksSchief
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|KopfRechtsSchief
+      takeName: Armature|KopfRechtsSchief
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Nicken
+      takeName: Armature|Nicken
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Bone
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Root/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Root/Bone.004
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Root/Bone.004/Bone.005/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Armature/Root/spine1
+        weight: 1
+      - path: Armature/Root/spine1/neck
+        weight: 1
+      - path: Armature/Root/spine1/neck/head
+        weight: 1
+      - path: Armature/Root/spine1/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm
+        weight: 1
+      - path: Armature/Root/spine1/upArm/lowArm/lowArm_end
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001
+        weight: 1
+      - path: Armature/Root/spine1/upArm.001/lowArm.001/lowArm.001_end
+        weight: 1
+      - path: Eule
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
