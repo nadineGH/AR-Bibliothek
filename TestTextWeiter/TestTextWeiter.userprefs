@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\textEdit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TextBoxManager.cs">
     <Files>
-      <File FileName="Assets\textEdit.cs" Line="14" Column="28" />
+      <File FileName="Assets\textEdit.cs" Line="6" Column="22" />
+      <File FileName="Assets\TextBoxManager.cs" Line="41" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

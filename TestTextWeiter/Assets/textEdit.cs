@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class textEdit : MonoBehaviour {
 
-	[SerializeField]
-	private Text text = null;
+	public TextAsset textFile;
+	public string[] textLines;
 
 
 	// Use this for initialization
 	void Start () {
-		text.text = "Hallo Mensch";
+		if (textFile != null) { 
+			textLines = (textFile.text.Split('\n'));
+		}
 	}
 
 }
