@@ -129,6 +129,7 @@
     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
     <Compile Include="Assets\PilzAnim.cs" />
     <Compile Include="Assets\Skripts\EuleAnimationen.cs" />
+    <Compile Include="Assets\StatischeVariable.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -164,6 +165,7 @@
     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+    <Compile Include="Assets\Zaehler.cs" />
     <Compile Include="Assets\animation.cs" />
   </ItemGroup>
   <ItemGroup>

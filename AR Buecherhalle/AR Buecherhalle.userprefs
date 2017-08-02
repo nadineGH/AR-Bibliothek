@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="AR Buecherhalle.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ButtonActions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Zaehler.cs">
     <Files>
       <File FileName="Assets\PilzAnim.cs" Line="1" Column="1" />
-      <File FileName="Assets\ButtonActions.cs" Line="12" Column="1" />
+      <File FileName="Assets\Zaehler.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
