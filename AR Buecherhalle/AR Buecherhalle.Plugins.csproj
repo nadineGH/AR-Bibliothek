@@ -125,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\AR_App_Targets\authoringinfo.xml" />
+    <None Include="Assets\KlickText\1. Szene - verwunschener Wald 1.txt" />
+    <None Include="Assets\KlickText\1. Szene - verwunschener Wald.txt" />
+    <None Include="Assets\KlickText\Szene - verwunschener Wald 1.txt" />
+    <None Include="Assets\KlickText\Szene - verwunschener Wald.txt" />
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
