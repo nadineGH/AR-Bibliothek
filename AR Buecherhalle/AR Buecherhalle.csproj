@@ -128,7 +128,7 @@
     <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
-    <Compile Include="Assets\PilzAnim.cs" />
+    <Compile Include="Assets\Models\PilzAnim.cs" />
     <Compile Include="Assets\Skripts\EuleAnimationen.cs" />
     <Compile Include="Assets\StatischeVariable.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />

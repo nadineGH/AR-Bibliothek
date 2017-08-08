@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 340a6bd93fc62824da7150f22cf666ff
+timeCreated: 1502106102
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Martel Sans
+  fontNames:
+  - Martel Sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

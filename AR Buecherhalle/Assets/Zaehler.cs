@@ -9,13 +9,9 @@ public class Zaehler : MonoBehaviour
     public Text anzahlText;
     public GameObject pilz;
     public GameObject pilz2;
-    // Use this for initialization
-    /*void Start () {
-        anzahl = 0;
-        UpdateAnzahl();
-	}*/
-
-    // Update is called once per frame
+    public Animator popUpText;
+    //public Animation popUp;
+    
    public void UpdateAnzahl()
     {
         if (pilz.activeInHierarchy == false | pilz2.activeInHierarchy == false)
@@ -24,6 +20,8 @@ public class Zaehler : MonoBehaviour
             StatischeVariable.pilzAnzahl++;
             anzahlText.text = "Pilze: " + StatischeVariable.pilzAnzahl;
             Debug.Log(StatischeVariable.pilzAnzahl + "Pilze");
+            popUpText.GetComponent<Animator>().Play("PopUpTextAnimation");
+                
         }
     }
 }
