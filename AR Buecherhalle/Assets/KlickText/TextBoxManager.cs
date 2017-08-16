@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TextBoxManager : MonoBehaviour {
 
     public GameObject textBox;
-
+    public Button weiterButton;
 	public Text theText;
 
 	public TextAsset textFile;
@@ -43,6 +43,12 @@ public class TextBoxManager : MonoBehaviour {
     {
         theText.text = textLines[currentLine];
         currentLine += 1;
+        if (currentLine == 10)
+        {
+            textBox.SetActive(false);
+            weiterButton.gameObject.SetActive(false);
+
+        }
     }
 
 }
