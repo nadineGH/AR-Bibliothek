@@ -11,17 +11,29 @@ public class Zaehler : MonoBehaviour
     public GameObject pilz2;
     public Animator popUpText;
     //public Animation popUp;
-    
-   public void UpdateAnzahl()
+
+    public AudioClip clip;
+    public AudioClip mysound;
+    AudioSource audioSource;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        // audioSource.PlayOneShot(mysound, 0.5f);
+        //audioSource.loop = true;
+    }
+
+    public void UpdateAnzahl()
     {
         if (pilz.activeInHierarchy == false | pilz2.activeInHierarchy == false)
         {
-            
+            audioSource.PlayOneShot(clip, 0.9f);
             StatischeVariable.pilzAnzahl++;
             anzahlText.text = "Pilze: " + StatischeVariable.pilzAnzahl;
             Debug.Log(StatischeVariable.pilzAnzahl + "Pilze");
             popUpText.GetComponent<Animator>().Play("PopUpTextAnimation");
-                
+            // AudioListener.pause = true; Sound pausieren!
+
         }
     }
 }
