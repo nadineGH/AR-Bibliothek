@@ -97,6 +97,8 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Models\PilzAnim.cs" />
      <Compile Include="Assets\Skripts\EuleAnimationen.cs" />
+     <Compile Include="Assets\Skripts\EulemFl.cs" />
+     <Compile Include="Assets\Skripts\animation.cs" />
      <Compile Include="Assets\StatischeVariable.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
@@ -134,7 +136,6 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\Zaehler.cs" />
-     <Compile Include="Assets\animation.cs" />
      <None Include="Assets\KlickText\1. Szene - verwunschener Wald.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
