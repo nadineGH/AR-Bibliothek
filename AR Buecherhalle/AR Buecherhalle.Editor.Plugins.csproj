@@ -147,6 +147,7 @@
     <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
     <None Include="Assets\KlickText\1. Szene - verwunschener Wald 1.txt" />
     <None Include="Assets\KlickText\1. Szene - verwunschener Wald.txt" />
+    <None Include="Assets\KlickText\NeueGeschichte. 1.txt" />
     <None Include="Assets\KlickText\Szene - verwunschener Wald 1.txt" />
     <None Include="Assets\KlickText\Szene - verwunschener Wald.txt" />
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
