@@ -151,6 +151,7 @@
      <None Include="Assets\Free Low Poly Toon Nature\Readme.txt" />
      <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
+     <None Include="Assets\KlickText\NeueGeschichte. 1.txt" />
      <None Include="Assets\Sample- Low Poly Nature Assets\Materials\_MaterialIndex.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\AR_App_Targets.xml" />
      <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
