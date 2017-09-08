@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 995e4fe063d0e38418f8060ace2b9bff
+timeCreated: 1504866497
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.003
+    100010: Bone.003_end
+    100012: Bone.004
+    100014: Bone.005
+    100016: Bone.006
+    100018: Bone.007
+    100020: Bone.007_end
+    100022: Bone.008
+    100024: Bone.008_end
+    100026: Bone.009
+    100028: Bone.009_end
+    100030: Eule
+    100032: Eule.001
+    100034: Eule.002
+    100036: //RootNode
+    100038: head
+    100040: lowArm
+    100042: lowArm.001
+    100044: lowArm.002
+    100046: lowArm.003
+    100048: lowArm.003_end
+    100050: lowArm.004
+    100052: lowArm.005
+    100054: lowArm.005_end
+    100056: neck
+    100058: Root
+    100060: spine1
+    100062: Umhang
+    100064: Umhang.001
+    100066: Umhang.002
+    100068: Umhang.003
+    100070: upArm
+    100072: upArm.001
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.003
+    400010: Bone.003_end
+    400012: Bone.004
+    400014: Bone.005
+    400016: Bone.006
+    400018: Bone.007
+    400020: Bone.007_end
+    400022: Bone.008
+    400024: Bone.008_end
+    400026: Bone.009
+    400028: Bone.009_end
+    400030: Eule
+    400032: Eule.001
+    400034: Eule.002
+    400036: //RootNode
+    400038: head
+    400040: lowArm
+    400042: lowArm.001
+    400044: lowArm.002
+    400046: lowArm.003
+    400048: lowArm.003_end
+    400050: lowArm.004
+    400052: lowArm.005
+    400054: lowArm.005_end
+    400056: neck
+    400058: Root
+    400060: spine1
+    400062: Umhang
+    400064: Umhang.001
+    400066: Umhang.002
+    400068: Umhang.003
+    400070: upArm
+    400072: upArm.001
+    2300000: Umhang
+    2300002: Umhang.001
+    2300004: Umhang.002
+    2300006: Umhang.003
+    3300000: Umhang
+    3300002: Umhang.001
+    3300004: Umhang.002
+    3300006: Umhang.003
+    4300000: Umhang.002
+    4300002: Umhang.001
+    4300004: Umhang
+    4300006: Eule.002
+    4300008: Eule.001
+    4300010: Umhang.003
+    4300012: Eule
+    7400000: "Armature|Fl\xFCgel"
+    7400002: Armature|Koerper
+    7400004: Armature|KopfLinks
+    7400006: Armature|KopfRechts
+    7400008: Armature|Nicken
+    7400010: Armature|SchiefLinks
+    7400012: Armature|SchiefRechts
+    7400014: Armature|Schnabel
+    7400016: Eule|Koerper
+    9500000: //RootNode
+    13700000: Eule
+    13700002: Eule.001
+    13700004: Eule.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
