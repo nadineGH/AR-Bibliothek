@@ -9,6 +9,7 @@ public class Zaehler : MonoBehaviour
     public Text anzahlText;
     public GameObject pilz;
     public GameObject pilz2;
+    public GameObject pilz3;
     public Animator popUpText;
     //public Animation popUp;
 
@@ -25,7 +26,7 @@ public class Zaehler : MonoBehaviour
 
     public void UpdateAnzahl()
     {
-        if (pilz.activeInHierarchy == false | pilz2.activeInHierarchy == false)
+        if (pilz.activeInHierarchy == false | pilz2.activeInHierarchy == false | pilz3.activeInHierarchy == false)
         {
             audioSource.PlayOneShot(clip, 0.9f);
             StatischeVariable.pilzAnzahl++;

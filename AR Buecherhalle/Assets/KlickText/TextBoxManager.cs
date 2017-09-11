@@ -20,6 +20,7 @@ public class TextBoxManager : MonoBehaviour {
     public GameObject demoPilz;
     public GameObject pilz;
 
+    public int extrazahl = 1;
     void Start()
     {
 
@@ -46,13 +47,25 @@ public class TextBoxManager : MonoBehaviour {
         }
 
         // Ein Pilz wurde gesammelt -> Glückwunsch Text
-        if (StatischeVariable.pilzAnzahl == 1)
+        if (StatischeVariable.pilzAnzahl == 1 && extrazahl == 1)
         {
-            StatischeVariable.pilzAnzahl++;
+            //StatischeVariable.pilzAnzahl++; vorrübergehend ausgeblendet
+            extrazahl++;
             textBox.SetActive(true);
             currentLine = 16;
             StartCoroutine(MyMethod());
         }
+
+        // Alle 3 Pilze eingesammelt
+        if (StatischeVariable.pilzAnzahl == 3)
+        {
+            textBox.SetActive(true);
+            currentLine = 18;
+            theText.text = textLines[currentLine];
+            weiterButton.gameObject.SetActive(true);
+            Weiter();
+        }
+
     }
 
     IEnumerator MyMethod()
@@ -91,6 +104,12 @@ public class TextBoxManager : MonoBehaviour {
             weiterButton.gameObject.SetActive(false);
         }
 
+        if (currentLine == 22)
+        {
+            textBox.SetActive(false);
+            weiterButton.gameObject.SetActive(false);
+        }
+
     }
     public void Ja()
     {
@@ -100,5 +119,10 @@ public class TextBoxManager : MonoBehaviour {
         Weiter();
         
 
+    }
+
+    public void doExitGame()
+    {
+        Application.Quit();
     }
 }
