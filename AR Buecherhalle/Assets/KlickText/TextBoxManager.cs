@@ -9,6 +9,7 @@ public class TextBoxManager : MonoBehaviour {
     public Button weiterButton;
     public Button jaButton;
     public Button neinButton;
+	public Button soundMute;
     public Text theText;
 
 	public bool mute;
@@ -21,6 +22,9 @@ public class TextBoxManager : MonoBehaviour {
 
     public GameObject demoPilz;
     public GameObject pilz;
+
+	public Sprite SoundOn;
+	public Sprite SoundOff;
 
     public int extrazahl = 1;
     void Start()
@@ -133,7 +137,6 @@ public class TextBoxManager : MonoBehaviour {
 
 	public void muteSound()
 	{
-		//mute = true;
 
 		if (mute) {
 			AudioListener.pause = true;

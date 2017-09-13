@@ -98,7 +98,6 @@
      <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\AR_App_Targets\authoringinfo.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\AR_App_Targets.xml" />
      <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
@@ -115,6 +114,7 @@
      <None Include="Assets\KlickText\Szene - verwunschener Wald.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\AR_App_Targets.xml" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Sample- Low Poly Nature Assets\Documentation.txt" />
      <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
