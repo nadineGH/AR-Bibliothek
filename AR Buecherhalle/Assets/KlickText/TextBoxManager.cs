@@ -11,6 +11,8 @@ public class TextBoxManager : MonoBehaviour {
     public Button neinButton;
     public Text theText;
 
+	public bool mute;
+
     public TextAsset textFile;
     public string[] textLines;
 
@@ -125,4 +127,22 @@ public class TextBoxManager : MonoBehaviour {
     {
         Application.Quit();
     }
+
+
+	//Sound austellen können
+
+	public void muteSound()
+	{
+		//mute = true;
+
+		if (mute) {
+			AudioListener.pause = true;
+			mute = false;
+		} 
+		else {
+			AudioListener.pause = false;
+			mute = true;
+		}
+	}
+
 }
