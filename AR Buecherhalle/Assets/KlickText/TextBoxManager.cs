@@ -23,13 +23,10 @@ public class TextBoxManager : MonoBehaviour {
     public GameObject demoPilz;
     public GameObject pilz;
 
-	public Sprite SoundOn;
-	public Sprite SoundOff;
 
     public int extrazahl = 1;
     void Start()
     {
-
         if (textFile != null)
         {
             textLines = (textFile.text.Split('\n'));
@@ -137,6 +134,7 @@ public class TextBoxManager : MonoBehaviour {
 
 	public void muteSound()
 	{
+		
 
 		if (mute) {
 			AudioListener.pause = true;

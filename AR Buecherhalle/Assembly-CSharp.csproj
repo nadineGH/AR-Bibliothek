@@ -96,6 +96,7 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Models\PilzAnim.cs" />
+     <Compile Include="Assets\Skripts\ChangeSpriteOnClick.cs" />
      <Compile Include="Assets\Skripts\EuleAnimationen.cs" />
      <Compile Include="Assets\Skripts\EulemFl.cs" />
      <Compile Include="Assets\Skripts\animation.cs" />
