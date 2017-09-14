@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class Zaehler : MonoBehaviour
 {
-    //[SerializeField]
     public Text anzahlText;
     public GameObject pilz;
     public GameObject pilz2;
     public GameObject pilz3;
+    public GameObject euleMitUmhang;
     public Animator popUpText;
     //public Animation popUp;
 
     public AudioClip clip;
     public AudioClip mysound;
+    public AudioClip anzahlErreicht;
     AudioSource audioSource;
 
     void Awake()
@@ -33,8 +34,12 @@ public class Zaehler : MonoBehaviour
             anzahlText.text = "Pilze: " + StatischeVariable.pilzAnzahl;
             Debug.Log(StatischeVariable.pilzAnzahl + "Pilze");
             popUpText.GetComponent<Animator>().Play("PopUpTextAnimation");
-            // AudioListener.pause = true; Sound pausieren!
+        }
 
+        if (StatischeVariable.pilzAnzahl == 3)
+        {
+            euleMitUmhang.SetActive(true);
+            audioSource.PlayOneShot(anzahlErreicht, 1.0f);
         }
     }
 }

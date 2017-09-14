@@ -134,9 +134,16 @@
     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
     <Compile Include="Assets\Models\PilzAnim.cs" />
+    <Compile Include="Assets\Skripts\BrettBrechen.cs" />
+    <Compile Include="Assets\Skripts\ChangeSpriteOnClick.cs" />
     <Compile Include="Assets\Skripts\EuleAnimationen.cs" />
     <Compile Include="Assets\Skripts\EulemFl.cs" />
     <Compile Include="Assets\Skripts\animation.cs" />
+    <Compile Include="Assets\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
+    <Compile Include="Assets\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
+    <Compile Include="Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
     <Compile Include="Assets\StatischeVariable.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
@@ -187,7 +194,7 @@
     <None Include="Assets\Free Low Poly Toon Nature\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
     <None Include="Assets\KlickText\1. Szene - verwunschener Wald 1.txt" />
     <None Include="Assets\KlickText\1. Szene - verwunschener Wald.txt" />
-    <None Include="Assets\KlickText\NeueGeschichte. 1.txt" />
+    <None Include="Assets\KlickText\NeueGeschichte..txt" />
     <None Include="Assets\KlickText\Szene - verwunschener Wald 1.txt" />
     <None Include="Assets\KlickText\Szene - verwunschener Wald.txt" />
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />

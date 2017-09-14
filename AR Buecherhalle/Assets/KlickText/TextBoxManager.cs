@@ -23,13 +23,17 @@ public class TextBoxManager : MonoBehaviour {
     public GameObject demoPilz;
     public GameObject pilz;
 
-
     public int extrazahl = 1;
+
+    public AudioClip eulenschrei;
+    AudioSource audioSource;
+
     void Start()
     {
         if (textFile != null)
         {
             textLines = (textFile.text.Split('\n'));
+            audioSource = GetComponent<AudioSource>();
         }
 
         if (endAtLine == 0)
@@ -55,7 +59,7 @@ public class TextBoxManager : MonoBehaviour {
             //StatischeVariable.pilzAnzahl++; vorrübergehend ausgeblendet
             extrazahl++;
             textBox.SetActive(true);
-            currentLine = 16;
+            currentLine = 14;
             StartCoroutine(MyMethod());
         }
 
@@ -63,9 +67,10 @@ public class TextBoxManager : MonoBehaviour {
         if (StatischeVariable.pilzAnzahl == 3)
         {
             textBox.SetActive(true);
-            currentLine = 18;
-            theText.text = textLines[currentLine];
-            weiterButton.gameObject.SetActive(true);
+            currentLine = 16;
+            StatischeVariable.pilzAnzahl++;
+            // theText.text = textLines[currentLine];
+            // weiterButton.gameObject.SetActive(true);
             Weiter();
         }
 
@@ -73,7 +78,7 @@ public class TextBoxManager : MonoBehaviour {
 
     IEnumerator MyMethod()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
         textBox.SetActive(false);
         yield break;
     }
@@ -91,7 +96,7 @@ public class TextBoxManager : MonoBehaviour {
              textBox.SetActive(false);
              weiterButton.gameObject.SetActive(false);
          }*/
-        if (currentLine == 11)
+        if (currentLine == 10)
         {
             jaButton.gameObject.SetActive(true);
             neinButton.gameObject.SetActive(true);
@@ -99,15 +104,18 @@ public class TextBoxManager : MonoBehaviour {
             weiterButton.gameObject.SetActive(false);
 
         }
-        if (currentLine == 15)
+
+        //Ende 1. Abschnitt Eule redet - Eulenschrei - Pilze freigeschaltet
+        if (currentLine == 14)
         {
+            audioSource.PlayOneShot(eulenschrei, 0.7f);
             demoPilz.SetActive(false);
             pilz.SetActive(true);
             textBox.SetActive(false);
             weiterButton.gameObject.SetActive(false);
         }
 
-        if (currentLine == 22)
+        if (currentLine == 19)
         {
             textBox.SetActive(false);
             weiterButton.gameObject.SetActive(false);
