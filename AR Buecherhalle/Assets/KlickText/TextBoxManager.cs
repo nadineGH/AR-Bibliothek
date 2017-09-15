@@ -21,7 +21,11 @@ public class TextBoxManager : MonoBehaviour {
     public int endAtLine;
 
     public GameObject demoPilz;
+    public GameObject demoPilz2;
+    public GameObject demoPilz3;
     public GameObject pilz;
+    public GameObject pilz2;
+    public GameObject pilz3;
 
     public int extrazahl = 1;
 
@@ -111,6 +115,10 @@ public class TextBoxManager : MonoBehaviour {
             audioSource.PlayOneShot(eulenschrei, 0.7f);
             demoPilz.SetActive(false);
             pilz.SetActive(true);
+            demoPilz2.SetActive(false);
+            pilz2.SetActive(true);
+            demoPilz3.SetActive(false);
+            pilz3.SetActive(true);
             textBox.SetActive(false);
             weiterButton.gameObject.SetActive(false);
         }
