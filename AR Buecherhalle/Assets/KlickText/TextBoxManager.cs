@@ -103,7 +103,7 @@ public class TextBoxManager : MonoBehaviour {
         if (currentLine == 10)
         {
             jaButton.gameObject.SetActive(true);
-            neinButton.gameObject.SetActive(true);
+            //neinButton.gameObject.SetActive(true);
             //textBox.SetActive(false);
             weiterButton.gameObject.SetActive(false);
 

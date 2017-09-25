@@ -10,6 +10,7 @@ public class Zaehler : MonoBehaviour
     public GameObject pilz2;
     public GameObject pilz3;
     public GameObject euleMitUmhang;
+    public GameObject korb;
     public Animator popUpText;
     //public Animation popUp;
 
@@ -38,8 +39,17 @@ public class Zaehler : MonoBehaviour
 
         if (StatischeVariable.pilzAnzahl == 3)
         {
-            euleMitUmhang.SetActive(true);
             audioSource.PlayOneShot(anzahlErreicht, 1.0f);
+            StartCoroutine(Warten());
+            
         }
+    }
+
+    IEnumerator Warten()
+    {
+        yield return new WaitForSeconds(1);
+        euleMitUmhang.SetActive(true);
+        korb.SetActive(true);
+        yield break;
     }
 }

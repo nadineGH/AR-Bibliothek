@@ -19,6 +19,7 @@ public class BlaetterController : MonoBehaviour {
         {
             Debug.Log("Running");
             particleObject.Play();
+
         }
     }
 
